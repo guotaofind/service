@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "service",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "unique"
+            ]
+        }
+    ],
+    "changelogDate": "20181122195529",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "department",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "service"
+}

@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.motic",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "5.4.2",
+    "applicationType": "microservice",
+    "baseName": "service",
+    "packageName": "com.motic",
+    "packageFolder": "com/motic",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YjI2YjQ5MjIwNzZhNmU1NmRmMzNlNjBhM2EzYzJkOWI5MmEyMTc0NDczZmNkMDg4MmUwMTZkZDA0ODZmZDU0MjYxMDQ0OTk0MGQxNzViN2I3ZTYwMjRjMjIxODA5ZTcxNWJjZGE2OGIxNTBkMjYyNGZlOGZlYTk1ZTY3ZDAxNjk=",
+    "enableTranslation": true,
+    "languages": [
+      "zh-cn",
+      "en"
+    ],
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "zh-cn",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
